@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">海盗的金币任务</string>
+    <string name="txt">大家好！我是你们亲爱的老船长加里森，我们的海盗船即将出发前往一个充满宝藏的小岛，在那个小岛上有着银行、股票公司，
+        你们可以通过自己的智慧在那里取得你们一生享用不尽的财富。当然，稍有不甚，你也有可能一无所有。准备好了吗各位，我们的海盗船就要出发啦！</string>
+    <string name="btn1_label">现在出发</string>
+    <string name="btn2_label">登录</string>
+    <string name="btn3_label">忘记密码？</string>
+    <string name="btn4_label">新用户注册</string>
+    <string name="user_name_hint">请输入用户名</string>
+    <string name="psw_hint">请输入密码</string>
+    <string name="psw_again_hint">请再次输入密码</string>
+    <string name="btn_register_label">注册</string>
+    <string name="btn_start_label">开始游戏</string>
+    <string name="btn_dropOut_label">退出游戏</string>
+    <string name="btn_zhishaizi_label">掷骰子</string>
+    <string name="btn_start_game_label">出发</string>
+    <string name="btn_joke_label">船长的玩笑</string>
+    <string name="tv_tiShi_label">你可以前进的步数是：</string>
+    <string name="tv_jinBi_label">10</string>
+    <string name="tv_jifenshu_label">200</string>
+    <string name="tv_buShu_label">0</string>
+    <string name="zh_label">账号：</string>
+    <string name="mima_label">密码：</string>
+    <string name="userName_hint">用户名/手机/邮箱</string>
+    <string name="passWord_hint">密码</string>
+    <string name="btn_joke1_zhifu_label">支付金币</string>
+    <string name="btn_joke1_fangqi_label">损失积分</string>
+    <string name="btn_joke2_zhifu_label">支付金币</string>
+    <string name="btn_joke2_fangqi_label">损失积分</string>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KaiShiActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginRight="106dp"
+        android:contentDescription="@string/app_name"
+        android:orientation="vertical"
+        app:srcCompat="@mipmap/laochuangzhang" />
+
+    <LinearLayout
+        style="@style/AppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:text="@string/txt"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="500dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:id="@+id/btn1"
+        android:text="@string/btn1_label"
+        android:textSize="25sp"
+        android:onClick="openOne"/>
+</RelativeLayout>
